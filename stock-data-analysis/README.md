@@ -1,9 +1,11 @@
 # Stock Data Analysis
 
 ## Project Overview
+
 This project focuses on downloading stock market data from Yahoo Finance using the `yfinance` library and performing basic data analysis with Python. The goal is to implement simple algorithms like moving averages and ARIMA models to analyze stock price trends. This repository is part of a broader portfolio showcasing skills in quantitative finance and Python programming.
 
 ## Features
+
 - Download stock data from Yahoo Finance using the `yfinance` library.
 - Perform basic data analysis, including calculating moving averages and implementing ARIMA models.
 - Visualize stock data and analysis results with `matplotlib` and `seaborn`.
@@ -12,42 +14,35 @@ This project focuses on downloading stock market data from Yahoo Finance using t
 ## Installation
 
 1. Clone this repository:
-    ```bash
+```bash
     git clone https://github.com/ilyesnajjari/Quantitative-Finance-Portfolio.git
-    ```
-
+```
 2. Navigate to the project folder:
-    ```bash
+```bash
     cd stock-data-analysis
-    ```
-
+```
 3. Create a virtual environment:
-    ```bash
+```bash
     python3 -m venv venv
-    ```
-
+```
 4. Activate the virtual environment:
     - **On macOS/Linux**:
-      ```bash
+```bash
       source venv/bin/activate
-      ```
+```
     - **On Windows**:
-      ```bash
+```bash
       venv\Scripts\activate
-      ```
-
+```
 5. Install the required dependencies:
-    ```bash
+```bash
     pip install -r requirements.txt
-    ```
-
+```
 ## Usage
 
 1. To run the main script and start analyzing stock data, use:
-    ```bash
-    python scripts/stock_data_analysis.py
-    ```
-
+    python3 scripts/stock_data_analysis.py
+    or python scripts/stock_data_analysis.py
 2. You can modify the script to download data for different stock symbols by updating the `symbol` variable.
 
 ## Dependencies
@@ -59,34 +54,34 @@ This project focuses on downloading stock market data from Yahoo Finance using t
 - `seaborn` for enhanced data visualization.
 
 You can install all dependencies using the following command:
-```bash
+
 pip install -r requirements.txt
 
 
-File Structure
+## File Structure
 
 stock-data-analysis/
 │
-├── data/                    # Dossier pour stocker les fichiers de données
-│   └── stock_data.csv       # Exemple de fichier de données téléchargées (si nécessaire)
+├── data/                    # Directory for storing data files
+│   └── stock_data.csv       # Example data file (if necessary)
 │
-├── scripts/                 # Dossier contenant les scripts Python
-│   └── stock_data_analysis.py  # Script principal d’analyse des données
+├── scripts/                 # Directory containing Python scripts
+│   └── stock_data_analysis.py  # Main script for data analysis
 │
-├── requirements.txt         # Liste des dépendances
+├── requirements.txt         # List of dependencies
 │
-├── README.md                # Fichier de documentation pour décrire le projet
+├── README.md                # Documentation file describing the project
 │
-├── .gitignore               # Fichier pour ignorer certains fichiers ou dossiers dans Git
+├── .gitignore               # File for ignoring certain files or directories in Git
 │
-└── venv/                    # Dossier de l'environnement virtuel (exclu de Git)
+└── venv/                    # Virtual environment directory (excluded from Git)
 
 
-License
+## Auteurs
 
-This project is open-source and available under the MIT License.
+- Ilyes NAJJARI
 
-License
+## License
 
 This project is open-source and available under the MIT License.
 

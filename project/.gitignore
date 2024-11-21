@@ -1,0 +1,21 @@
+
+---
+
+### `.gitignore`
+
+```gitignore
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore environment-specific settings
+*.env
+*.venv
