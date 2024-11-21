@@ -26,11 +26,11 @@ This project focuses on downloading stock market data from Yahoo Finance using t
     python3 -m venv venv
 ```
 4. Activate the virtual environment:
-    - **On macOS/Linux**:
+- **On macOS/Linux**:
 ```bash
       source venv/bin/activate
 ```
-    - **On Windows**:
+- **On Windows**:
 ```bash
       venv\Scripts\activate
 ```
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 
 ## File Structure
-
+```
 stock-data-analysis/
 │
 ├── data/                    # Directory for storing data files
@@ -75,6 +75,7 @@ stock-data-analysis/
 ├── .gitignore               # File for ignoring certain files or directories in Git
 │
 └── venv/                    # Virtual environment directory (excluded from Git)
+```
 
 
 ## Auteurs
