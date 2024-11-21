@@ -29,11 +29,13 @@ pip install -r requirements.txt
 ```
 3. Run the track_prices.py script:
 ```bash
-    python3 track_prices.py 
+    python3 track_prices.py
+```
+```bash
     python track_prices.py
 ```
 4. A graphical interface will open. Enter the player's URL, player name, and price threshold in credits. 
-    Example URL: [Google](https://www.futwiz.com/en/fc25/player/sandro-tonali/19121)
+    Example URL: [URL](https://www.futwiz.com/en/fc25/player/sandro-tonali/19121)
 5. Click "Start Tracking" to begin monitoring the player's price.
 
 ## Features
@@ -44,7 +46,7 @@ pip install -r requirements.txt
 Graphical Interface: A simple user interface to input the necessary information and start tracking.
 
 ## Project Structure
-
+```
 fifa_player_price_tracker/
 ├── data/
 │   └── price_history_player.csv   # CSV file containing player price history
@@ -54,6 +56,7 @@ fifa_player_price_tracker/
 ├── .gitignore                     # List of files to be ignored by Git
 ├── requirements.txt               # List of required dependencies
 └── venv/                          # Python virtual environment
+```
 
 ## Main Code
 
